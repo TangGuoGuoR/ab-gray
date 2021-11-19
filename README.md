@@ -1,8 +1,7 @@
-# ab-gray
-ab-gray
-public static void main(String[] args) {
+# ab-gray ab testing api
+灰度规则
 
-        String rules = "{\"features\":[{\"metaData\":{\"range\":\"40-50\",\"hash\":\">30\"},\"unionAll\":true,\"enable\":true,\"key\":\"test0\"},{\"metaData\":{\"range\":\"40-50\",\"hash\":\">30\"},\"unionAll\":true,\"enable\":true,\"key\":\"test1\"}]}";
+       String rules = "{\"features\":[{\"metaData\":{\"range\":\"40-50\",\"hash\":\">30\"},\"unionAll\":true,\"enable\":true,\"key\":\"test0\"},{\"metaData\":{\"range\":\"40-50\",\"hash\":\">30\"},\"unionAll\":true,\"enable\":true,\"key\":\"test1\"}]}";
 
         //apollo
         //IGrayDataSource grayDataSource=new ApolloDataSource<GrayRuleConfig>("application","gray_key","", source -> JSON.parseObject(source,GrayRuleConfig.class));
@@ -30,4 +29,4 @@ public static void main(String[] args) {
             }
         }
 
-    }
+    
