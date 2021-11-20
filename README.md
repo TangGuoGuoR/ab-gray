@@ -42,7 +42,10 @@ metaData：{\"range\":\"40-50\",\"hash\":\">30\"}， range：40-50,检查值为4
  ![image](https://user-images.githubusercontent.com/4375219/142653699-fc84c84f-9042-4250-a929-23fe10ace23c.png)
 
 
-  ## 4.ab-gray的一些参考
+  ## 4.ab-gray 类图
+  ![image](https://user-images.githubusercontent.com/4375219/142729412-fb53c2fb-255d-4f4b-b40d-63dd992dd812.png)
+
+  ## 5.ab-gray的一些参考
   1、首先决定写ab-gray是因为最近看了 王争的《设计模式之美》后决定自己动手来实现一个框架，就挑了这个灰度组件来实现，这个组件在现实场景中还是很常见的，例如新老api的流量切换、用户访问资源都a/b测试等。另外推荐一下这本书，有场景、有思考、有实践。
   
   2、关于ab-gray中动态数据源的设计，参考了阿里的sentinel的动态数据源设计。
